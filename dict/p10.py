@@ -7,5 +7,4 @@ ex_dict = {
 
 item = ... # 在這邊做些什麼才會輸出下面的東西ㄋ
 
-print(item) # 輸出 1
-print(ex_dict) # 輸出 {"b": 2, "c": 3, "d": 4}
+print(item) # 輸出 {"a": 1, "b": 2, "c": 3, "d": 5}

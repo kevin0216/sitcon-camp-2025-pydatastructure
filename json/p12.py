@@ -7,5 +7,8 @@ ex_dict = {
     "d": 4,
 }
 
-# 做什麼才能存檔呢？
-# 請在這邊加入程式碼來符合題目要求
+json_dump = json.dumps(ex_dict)
+json_load = json.loads(json_dump)
+
+print(type(json_dump)) # 輸出 <class 'str'>
+print(type(json_load)) # 輸出 <class 'dict'>
